@@ -1,0 +1,129 @@
+body {
+  background-color: #dfd3c3;
+  font-family: "PT Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+#about {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+header > h1 {
+  color: #fff;
+  font-size: 80px;
+  margin-top: -160px;
+  position: relative;
+}
+
+#beans {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0.8;
+  object-fit: cover;
+}
+
+#about-owner {
+  font-size: 18px;
+  padding: 60px 100px;
+  line-height: 2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about-owner p {
+  flex: 1;
+  max-width: 100%;
+}
+
+#machine {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  max-height: 380px;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+#coffee {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  max-height: 400px;
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.home,
+.service,
+.repair,
+.contact {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.about {
+  background-color: aqua;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.service {
+  background-image: url("./images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.repair {
+  background-image: url("./images/coffee.png");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact {
+  background-image: url("./images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+#coffee2 {
+  min-width: 450px;
+  max-height: 500px;
+  margin-left: 20px;
+  border-radius: 10px;
+}

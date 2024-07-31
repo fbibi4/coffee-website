@@ -1,0 +1,122 @@
+.footer-container {
+  background-color: #242424;
+  padding: 3rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-description {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #dfd3c3;
+}
+
+.address {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.divider {
+  margin: 0 20px;
+}
+
+.footer-subscription-heading {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.footer-links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link-wrapper {
+  display: flex;
+}
+
+.footer-link-items h2 {
+  margin-bottom: 16px;
+}
+
+.footer-link-items > h2 {
+  color: #dfd3c3;
+}
+
+.social-icon-link {
+  color: #dfd3c3;
+  font-size: 24px;
+  margin-bottom: -50px;
+}
+
+.social-media {
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
+  margin: -90px auto 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.footer-logo {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px; /* Added to match the other margin */
+}
+
+.rightFooter {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  margin-top: -280px;
+  align-items: center;
+  padding-right: 70px;
+  padding-top: 40px;
+}
+
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter iframe {
+  width: 300px;
+  border: none;
+  float: right;
+  background-color: #fff; /* Changed to a valid color */
+}
+
+.website-rights {
+  color: #dfd3c3;
+  display: flex;
+}
