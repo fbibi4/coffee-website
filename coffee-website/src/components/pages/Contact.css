@@ -1,0 +1,97 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding: 3rem 2rem;
+  width: 800px;
+  height: 520px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  background-color: white;
+}
+
+h1 {
+  margin: 1rem 2rem 0;
+  font-size: 1.62rem;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 1ch;
+  font-size: 1rem;
+  color: black;
+  font-family: inherit;
+  outline: none;
+  margin-top: 1ch;
+  cursor: pointer;
+  border: 1px solid rgb(220, 220, 220);
+
+  &:focus {
+    border: 2px solid rgb(117, 117, 117);
+  }
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  margin-top: 1ch;
+  height: 200px;
+  padding: 10px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid rgb(220, 220, 220);
+
+  &:focus {
+    border: 2px solid rgb(117, 117, 117);
+  }
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  background-color: rgb(27, 25, 25);
+  border: none;
+  transition: 150ms ease;
+  border-radius: 8px;
+  padding: 1ch;
+  font-size: 1rem;
+  color: #fff;
+  font-family: inherit;
+}
+
+button {
+  padding: 8px;
+  margin-top: 10px;
+  background-color: rgb(223, 211, 195);
+  border-radius: 8px;
+  border: solid rgb(117, 117, 117) 1px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 0.3s ease-out;
+  background: rgb(233, 220, 208);
+  color: rgb(117, 117, 117);
+  transition: 250ms;
+}
